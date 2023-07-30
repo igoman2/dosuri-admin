@@ -15,9 +15,9 @@ interface IIconProps {
     width?: string;
     height?: string;
 }
-// const Icon: FC<IIconProps> = ({ name, ...props }) => {
-//     let Icon: any = iconTypes[name];
-//     return <Icon {...props} css={{ cursor: "pointer" }} />;
-// };
+const Icon: FC<IIconProps> = ({ name, ...props }) => {
+    let Icon: any = iconTypes[name];
+    return <Icon {...props} css={{ cursor: "pointer" }} />;
+};
 
 export default Icon;

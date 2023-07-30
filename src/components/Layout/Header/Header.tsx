@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <Wrapper> 
                 <Link href="/">
-                    <Icon name="logo1" width="82" height="22" />
+                    도수리
                 </Link>
             </Wrapper>
             <h2> 병원 관리자</h2>
