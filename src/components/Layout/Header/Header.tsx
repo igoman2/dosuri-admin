@@ -2,25 +2,25 @@
 'use client';
 import styled from "@emotion/styled";
 import oc from 'open-color';
-import Icon from "@/src/util/Icon"
+import * as Icon from "@/src/util/Icon/svg"
 import Link from "next/link"
 
 const Header = () => {
     return (
         <header>
-            <Wrapper> 
+            <HeaderWrapper> 
                 <Link href="/">
-                    도수리
+                    <Icon.Logo1/>
                 </Link>
-            </Wrapper>
-            <h2> 병원 관리자</h2>
+                <h2> 병원 관리자</h2>
+            </HeaderWrapper>
         </header>
     )
 }
 
 export default Header;
 
-const Wrapper = styled.div`
+const HeaderWrapper = styled.div`
     /* 레이아웃 */
     display: flex;
     position: fixed;
@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     z-index: 5;
 
     /* 색상 */
-    background: ${oc.indigo[6]};
+    background: #3D3DC1;
     color: white;
     border-bottom: 1px solid ${oc.indigo[7]};
     box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.20);
@@ -41,10 +41,23 @@ const Wrapper = styled.div`
     font-size: 2.5rem;
 `;
 
-const Logo = styled.div`
+const Icon.Logo1 = styled.div`
+    /* 레이아웃 */
+    display: flex;
+    position: fixed;
+    align-items: center;
 
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    z-index: 5;
+
+    /* 색상 */
+    background: #3D3DC1;
     color: white;
-    margin-left: 10%;
+    border-bottom: 1px solid ${oc.indigo[7]};
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.20);
+
     /* 폰트 */
     font-size: 2.5rem;
 `;
