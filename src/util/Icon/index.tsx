@@ -1,9 +1,9 @@
 import React, { FC } from "react";
 
-import Logo1 from "@/src/assets/logo1.svg";
+import DsrLogo from "@/src/assets/DsrLogo.svg";
 
 export const iconTypes: any = {
-  logo1: Logo1,
+  DsrLogo: DsrLogo,
 } as const;
 export type IconName = keyof typeof iconTypes;
 
