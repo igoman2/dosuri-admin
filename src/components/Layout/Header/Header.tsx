@@ -6,17 +6,24 @@ import Icon from "@/src/util/Icon";
 import Link from "next/link";
 
 const Header = () => {
-    return (
-      <header>
-        <Wrapper>
-          <Link href="/">
-            <Icon name={"logo1"} height="60px" width="100px" fill="white" color={'white'}/>
-          </Link>
-        </Wrapper>
-        <h2> 병원 관리자</h2>
-      </header>
-    );
-  };
+  return (
+    <header>
+      <Wrapper>
+        <Link href="/">
+          <LogoWrapper>
+            <Icon
+              name={"logo1"}
+              height="92px"
+              width="46px"
+              //   style={{ background: "#fff" }}
+            />
+          </LogoWrapper>
+        </Link>
+      </Wrapper>
+      <h2> 병원 관리자</h2>
+    </header>
+  );
+};
 
 export default Header;
 
@@ -26,17 +33,30 @@ const Wrapper = styled.div`
   position: fixed;
   align-items: center;
 
-  height: 60px;
+  height: 64px;
   width: 100%;
   top: 0px;
   z-index: 5;
 
   /* 색상 */
-  background: ${oc.indigo[6]};
+  background: #3D3DC1;
   color: white;
-  border-bottom: 1px solid ${oc.indigo[7]};
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.2);
 
   /* 폰트 */
   font-size: 2.5rem;
+`;
+
+const LogoWrapper = styled.div`
+  color: white;
+  margin-left: 10%;
+  /* 폰트 */
+  font-size: 2.5rem;
+  svg {
+    fill: white;
+    margin-left: 10px;
+    path {
+        fill: white;
+    }
+  }
 `;

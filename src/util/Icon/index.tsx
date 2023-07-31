@@ -14,6 +14,7 @@ interface IIconProps {
   fill?: string;
   width?: string;
   height?: string;
+  [key: string]: any;
 }
 const Icon: FC<IIconProps> = ({ name, ...props }) => {
   let Icon: any = iconTypes[name];
