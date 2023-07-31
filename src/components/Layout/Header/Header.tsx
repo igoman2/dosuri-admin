@@ -15,7 +15,8 @@ const Header = () => {
       </div>
       <div className="flex flex-row gap-7">
         <span className="text-white text-base">더바른정형외과의원</span>
-        <span className="text-white text-base">포인트 99,999,999</span>
+        <span className="text-white text-base">포인트 99,999,999 &gt;</span>
+        <Icon name={"NotificationLogo"} height={"24px"} width={"24px"} />
         <span className="text-white text-base">로그아웃</span>
       </div>
     </header>
