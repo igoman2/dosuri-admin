@@ -9,8 +9,16 @@ const Header = () => {
   return (
     <header>
       <Wrapper>
-        <Icon name={"logo1"} />
-        <Link href="/">도수리</Link>
+        <Link href="/">
+          <LogoWrapper>
+            <Icon
+              name={"logo1"}
+              height="60px"
+              width="100px"
+              //   style={{ background: "#fff" }}
+            />
+          </LogoWrapper>
+        </Link>
       </Wrapper>
       <h2> 병원 관리자</h2>
     </header>
@@ -40,9 +48,12 @@ const Wrapper = styled.div`
   font-size: 2.5rem;
 `;
 
-const Logo = styled.div`
+const LogoWrapper = styled.div`
   color: white;
   margin-left: 10%;
   /* 폰트 */
   font-size: 2.5rem;
+  svg {
+    background-color: aqua;
+  }
 `;
