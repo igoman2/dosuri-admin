@@ -6,7 +6,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div>
       <Header />
       <div className="flex flex-row">
-        <div className="w-[300px] min-h-screen bg-slate-400">
+        <div className="w-[240px] max-h-screen bg-white-400">
           <GlobalNav />
         </div>
         <div className="flex-1">{children}</div>
