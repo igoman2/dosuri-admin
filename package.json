@@ -15,6 +15,7 @@
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
+    "clsx": "^2.0.0",
     "emotion": "^11.0.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
@@ -22,6 +23,7 @@
     "open-color": "^1.9.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
     "styled": "^1.0.0",
     "styled-components": "^6.0.5",
     "typescript": "5.1.6"
