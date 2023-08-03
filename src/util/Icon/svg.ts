@@ -1,0 +1,1 @@
+export { default as Logo1 } from '@/src/assets/logo1.svg';
