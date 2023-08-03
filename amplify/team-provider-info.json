@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dosuriadmin-dev-200008-authRole",
+      "UnauthRoleArn": "arn:aws:iam::810487077603:role/amplify-dosuriadmin-dev-200008-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::810487077603:role/amplify-dosuriadmin-dev-200008-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-dosuriadmin-dev-200008-deployment",
+      "UnauthRoleName": "amplify-dosuriadmin-dev-200008-unauthRole",
+      "StackName": "amplify-dosuriadmin-dev-200008",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:810487077603:stack/amplify-dosuriadmin-dev-200008/6f2d5310-216c-11ee-9a7f-0a64dd5120b2",
+      "AmplifyAppId": "d3exg5u846mhv"
+    }
+  }
+}
